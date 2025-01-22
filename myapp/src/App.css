@@ -1,0 +1,62 @@
+.custom-btn {
+  width: auto;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.fixed-card {
+  height: 100%; /* Ensures consistent card height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fixed-image {
+  height: 200px; /* Fixed image height */
+  object-fit: cover; /* Ensures image scales without distortion */
+}
+
+.fixed-card .card-body {
+  flex: 1; /* Ensures content takes equal space */
+}
+.why-us-carousel {
+  height: 100%;
+}
+
+.carousel-slide {
+  min-height: 200px; /* Adjust height based on design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-carousel-item {
+  flex: 0 1 25%; /* Ensures 4 items per row */
+  max-width: 150px; /* Optional: Set a maximum width for each item */
+  margin: 10px;
+  
+}
+
+.icon-carousel-item .icon {
+  font-size: 50px;
+  color: #00A2FF;
+}
+
+.why-us-carousel h5 {
+  font-size: 1rem;
+  margin-top: 10px;
+}
