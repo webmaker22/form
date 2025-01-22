@@ -183,7 +183,7 @@ const App = () => {
       <Container className="text-center p-5">
         <Row className=" mt-5 text-primary">
           <Col xxl={3} >
-            <h1 className="fw-bolder text-bg-light" style={{ fontSize: 100 }}>PNY Trainings</h1>
+            <h1 className="fw-bolder text-bg-light" style={{ fontSize: 100 }}>IT Trainings</h1>
             <br></br>
             <h2 className="text-bg-info p-3 mt-2">Pakistan's No.1 IT Training Institute</h2>
             <br></br>
