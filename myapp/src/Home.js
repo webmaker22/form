@@ -67,7 +67,7 @@ const App = () => {
       <Container fluid className='bg-secondary-subtle'>
         <Row className="d-flex justify-content-between text-center">
           <Col className="" xxl={3} xl={3} lg={6} sm={12}>
-            <Image src={require("./02.png")} style={{ width: "150px", }} />
+            <Image src={require("./02.jpg")} style={{ width: "150px", }} />
           </Col>
           <Col className="bg-secondary p-5 fw-bold" xxl={3} xl={3} lg={6} sm={12}  >
             Office # 102,<br></br>Floor #1 Talha Heights<br></br>
