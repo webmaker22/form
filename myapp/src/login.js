@@ -78,7 +78,7 @@ const Login = () => {
 
           <form onSubmit={handleSubmit}>
       <Button variant="primary" type="submit">
-        Submit
+               <Link to="/Home">Submit</Link>
       </Button>
     </form>
         </Form>
