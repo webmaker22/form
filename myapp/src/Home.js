@@ -70,8 +70,7 @@ const App = () => {
             <Image src={require("./02.jpg")} style={{ width: "150px", }} />
           </Col>
           <Col className="bg-secondary p-5 fw-bold" xxl={3} xl={3} lg={6} sm={12}  >
-            Office # 102,<br></br>Floor #1 Talha Heights<br></br>
-            Road Satellite Town,Rawalpindi
+           123 Institute Lane<br></br> Knowledge City<br></br> Education State, 456789
           </Col>
         </Row>
       </Container>
