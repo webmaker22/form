@@ -208,7 +208,7 @@ const App = () => {
       </Container>
 
 
-      <Container className="pt-5">
+      <Container to="#action2" className="pt-5">
         <Row xs={1} md={2} lg={3} className="g-4">
           {cardData.map((data, idx) => (
             <Col key={idx}>
