@@ -95,7 +95,7 @@ const App = () => {
                     <Nav.Link >
                       <Link style={{color:'black'}} to="/Education">Education</Link>
                     </Nav.Link>
-                    <Nav.Link style={{color:'black'}} href="#action2">Courses</Nav.Link>
+                    <Nav.Link style={{color:'black'}} href="#row-3">Courses</Nav.Link>
                     <NavDropdown style={{color:'black'}} title="Courses Link" id="navbarScrollingDropdown">
                       <NavDropdown.Item>
                       <Link to="/courses/amazon">Amazon</Link>
@@ -208,7 +208,7 @@ const App = () => {
       </Container>
 
 
-      <Container to="#action2" className="pt-5">
+      <Container id="row-3" className="pt-5">
         <Row xs={1} md={2} lg={3} className="g-4">
           {cardData.map((data, idx) => (
             <Col key={idx}>
