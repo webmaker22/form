@@ -184,7 +184,7 @@ const App = () => {
           <Col xxl={3} >
             <h1 className="fw-bolder text-bg-light" style={{ fontSize: 100 }}>IT Trainings</h1>
             <br></br>
-            <h2 className="text-bg-info p-3 mt-2">Pakistan's No.1 IT Training Institute</h2>
+            <h2 className="text-bg-info p-3 mt-2">World No.1 IT Training Institute</h2>
             <br></br>
             <h4 className="text-bg-secondary p-3 mt-2">Certified Courses with Money Making Skills! Empower Yourself with Practical Skills that Open Doors to Lucrative Opportunities
 
