@@ -254,7 +254,7 @@ const App = () => {
         </Row>
       </Container>
 
-      <footer className="pt-3" >
+      <footer className="min-h-screen pt-3" >
         <Container fluid className="footer bg-body-secondary mt-5">
           <Row>
             <Col md={3} className="bird-feeds bg-warning p-5">
